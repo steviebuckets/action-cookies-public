@@ -1,11 +1,8 @@
 import React from 'react';
 
 export default function Navbar(){
-  const name = 'Action Cookies';
   return(
-    // <div className="navbar">
-    // <div className="navbar-name">{name}</div>
-    // </div>
+
     <div className="inner-cover">
           <nav className="navbar navbar-default">
             <div className="container-fluid">

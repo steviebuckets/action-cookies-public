@@ -1,32 +1,3 @@
-/*.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}*/
-
-
-
-
-
 *{
   margin:0;
   padding:0;
@@ -105,6 +76,58 @@ body{
 .image {
   padding-top: 19.5em;
 }
+
+/* About Section */
+.container{
+  padding-bottom: 5em;
+}
+.about{
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 1em;
+  height: 50vh;
+  width: 100px;
+}
+.about h1{
+  padding-bottom: 10px;
+}
+
+
+span{
+  color: black;
+  font-weight: 200;
+  font-style: italic;
+  font-family: 'Source Code Pro', monospace;
+  background-color: yellow;
+}
+
+.quote{
+  padding-top: 20px;
+}
+.about-text{
+  margin-left: 480px;
+  margin-right: 480px;
+}
+
+.about p{
+  font-size: 17px;
+  font-family: 'Source Code Pro', monospace;
+}
+.quote{
+  padding-bottom: 20px;
+}
+
+.container, #about-section{
+  width: auto;
+}
+.about, .insta{
+  height: inherit;
+  padding-top: 10px;
+}
+
+
+
 
 /* Responsive Styles */
 @media screen and (max-width: 767px) {
