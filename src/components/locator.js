@@ -1,5 +1,7 @@
 import React from 'react';
 
+/* Note Cookie Locator component will import Google Maps API component for Map */
+
 export default function Locator() {
   return (
     <div className="container-fluid" id="cookie-locator">
@@ -7,7 +9,10 @@ export default function Locator() {
       <div className="row" id="search">
         <div className="col-sm-6">
           <div className="zip-search">
-            
+            <form>
+                <input type="text" className="info" placeholder="City or Zip"/>
+            </form>
+
           </div>
         </div>
         <div className="col-sm-6">
