@@ -1,5 +1,8 @@
 import React from 'react';
 
+
+/* Note Our Story component will import Instagram API component for images */
+
 export default function Ourstory() {
   return (
     <div className="container">
@@ -14,7 +17,7 @@ export default function Ourstory() {
         </div>
         <p>Keep up with the Action on Instagram</p>
         <p>@actioncookies</p>
-        <img className="insta" src="images/insta.png" alt=""/>
+        <img src={require('./images/insta.png')} className="insta" />
       </div>
     </div>
   )
