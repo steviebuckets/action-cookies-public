@@ -127,6 +127,48 @@ span{
 }
 
 
+/* Cookie Locator Section */
+.container-fluid{
+  text-align: center;
+  padding-bottom: 100px;
+  font-family: 'Bitter', serif;
+}
+
+.container-fluid h1{
+  padding-bottom: 14px;
+}
+
+#search{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.zip-search{
+  margin-left: -360px;
+}
+
+.form-control{
+  text-align: center;
+}
+
+.col-sm-6 ul{
+  margin-bottom: 10px;
+  float: right;
+}
+.col-sm-6 a{
+  display: block;
+  margin-right: -300px;
+  text-align: left;
+  padding-left: 80px;
+  padding-bottom: 10px;
+  color: #40241a;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  word-spacing: 3px;
+}
+
+
+
 
 
 /* Responsive Styles */

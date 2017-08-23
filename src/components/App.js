@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './navbar.js';
 import Ourstory from './our-story.js';
+import Locator from './locator.js';
 
 
 class App extends Component{
@@ -15,6 +16,10 @@ class App extends Component{
 
         <div className="About">
           <Ourstory />
+        </div>
+
+        <div className="Cookie-Locator">
+          <Locator />
         </div>
       </div>
     );
