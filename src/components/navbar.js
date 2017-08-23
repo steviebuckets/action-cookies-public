@@ -28,7 +28,9 @@ export default function Navbar(){
               </div>
             </div>
           </nav>
-
+          <div className="images">
+            <img src={require("./images/action-logo.png")} className="image" />
+            </div>
 
         </div>
   )
