@@ -97,12 +97,46 @@ body{
   text-align: center;
   height: 100vh;
   position: relative;
-  /*background-image: url("/images/cookies.jpg");*/
-  background-image: url("/images/hero.jpeg");
+  background-image: url("./images/hero.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   /*background-size: cover;*/
 }
 .image {
   padding-top: 19.5em;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+  .navbar-default {
+    padding-top: 10px;
+    display: block;
+    font-size: 15px;
+  }
+
+  #myNavbar ul li a {
+    color: #1b0000;
+     display:inline-block;
+     margin:0 0 0 0px;
+     padding:10px 10px;
+  }
+  .inner-cover img {
+    width: 90%;
+    margin-top: 190px;
+  }
+  .inner-cover {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 70vh;
+    position: relative;
+    background-size: contain;
+    /*background-image: url("/images/cookies.jpg");*/
+    background-image: url("./images/hero.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .image {
+    padding-top: 2.5em;
+  }
 }
