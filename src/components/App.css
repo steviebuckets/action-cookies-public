@@ -200,6 +200,68 @@ span{
 }
 
 
+/* Action Bar Section */
+.action-bar-container p{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 17px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+.action-bar-container .row{
+  display: inline-block;
+  /*margin: auto;*/
+  width: 100%;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#action-row{
+  background-color: yellow;
+  width: auto;
+  margin-right: -15px;
+}
+
+#bars{
+  text-align: center;
+}
+#bars h1{
+  font-size: 17px;
+  font-family: 'Bitter', serif;
+  color: #1b0000;
+  padding-bottom: 1px;
+}
+
+#bars img{
+  padding-top: 10px;
+  background-size: contain;
+  padding-bottom: 80px;
+}
+.col-md-4{
+  background-repeat: no-repeat;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  background-size: contain;
+}
+
+.hiddens{
+  display: none;
+}
+.row .container:hover .visible{
+  display: none;
+}
+
+.row .container:hover .hiddens{
+  display: block;
+}
+
+.ingredients{
+  /*display: none;*/
+}
+
+
 
 
 

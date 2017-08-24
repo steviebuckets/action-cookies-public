@@ -5,6 +5,7 @@ import Navbar from './navbar.js';
 import Ourstory from './our-story.js';
 import Locator from './locator.js';
 import Cookiemenu from './cookie-menu.js';
+import Actionbar from './action-bar.js';
 
 
 class App extends Component{
@@ -25,6 +26,10 @@ class App extends Component{
 
         <div className="Cookie-Menu">
           <Cookiemenu />
+        </div>
+
+        <div className="Action-Bar">
+        <Actionbar />
         </div>
       </div>
     );
