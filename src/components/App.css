@@ -211,7 +211,6 @@ span{
 }
 .action-bar-container .row{
   display: inline-block;
-  /*margin: auto;*/
   width: 100%;
   text-align: center;
   margin-right: 10px;
@@ -257,11 +256,50 @@ span{
   display: block;
 }
 
-.ingredients{
-  /*display: none;*/
+
+
+/* Footer Section, Set black background color, white text and some padding */
+.mastfoot {
+  background-color: #1b0000;
+  color: white;
+  padding: 15px;
+  height: 400px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -70px;
+}
+.mastfoot .inner{
+  font-family: 'Bitter', serif;
+  color: white;
+  float: right;
+  margin-right: 150px;
+  padding-top: 100px;
+  margin-left: 800px;
 }
 
+.mastfoot .outer{
+  padding-top: 150px;
+  margin-left: 150px;
+}
 
+.mastfoot .outer p{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 17px;
+}
+
+.mastfoot h1{
+  padding-bottom: 10px;
+}
+
+.mastfoot p{
+  padding-bottom: 15px;
+  font-size: 17px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.mastfoot .fa{
+  padding-right: 5px;
+  font-size: 24px;
+}
 
 
 
