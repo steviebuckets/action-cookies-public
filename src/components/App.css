@@ -167,6 +167,39 @@ span{
   word-spacing: 3px;
 }
 
+/* Cookie Menu Section */
+.cookie-menu-container p{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 17px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+#cookie-row{
+  background-color: black;
+  color: white;
+}
+
+#cookies{
+  text-align: center;
+}
+#cookies h1{
+  font-size: 17px;
+  font-family: 'Bitter', serif;
+  color: #1b0000;
+  padding-bottom: 1px;
+}
+
+#cookies img{
+  padding-top: 10px;
+  background-size: contain;
+  padding-bottom: 80px;
+  width: 70%;
+}
+
+
 
 
 

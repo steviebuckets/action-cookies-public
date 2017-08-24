@@ -1,6 +1,7 @@
 import React from 'react';
 
 /* Note Cookie Locator component will import Google Maps API component for Map */
+/* Possibly crearte another compoenet for Form and import here? */
 
 export default function Locator() {
   return (
@@ -10,7 +11,7 @@ export default function Locator() {
         <div className="col-sm-6">
           <div className="zip-search">
             <form>
-                <input type="text" className="info" placeholder="City or Zip"/>
+              <input type="text" className="info" placeholder="City or Zip"/>
             </form>
 
           </div>
