@@ -8,10 +8,12 @@ body{
 /* Navbar */
 
 .navbar-default {
-  background-color: transparent;
+  background-color: white;
+  color: black;
+  opacity: 0.9;
   border: none;
   padding-top: 2em;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-family: 'Source Code Pro', monospace;
 }
 
@@ -22,6 +24,9 @@ body{
   position: absolute;
   width: 100%;
   z-index: 9999;
+  position: fixed;
+  margin-left: -16px;
+  height: 80px;
 }
 
 
@@ -45,11 +50,12 @@ body{
    right:50%;
 }
 #myNavbar ul li a {
-  color: #1b0000;
+   color: #1b0000;
    display:block;
    margin:0 0 0 10px;
    padding:10px 20px;
-   text-decoration:none;
+   /*text-decoration:none;*/
+   font-family: 'Source Code Pro', monospace;
 }
 
 .navbar-toggle{
