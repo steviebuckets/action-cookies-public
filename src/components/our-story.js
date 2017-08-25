@@ -1,4 +1,5 @@
 import React from 'react';
+import Instagram from './instagram.js';
 
 
 /* Note Our Story component will import Instagram API component for images */
@@ -16,8 +17,9 @@ export default function Ourstory() {
           <p className="quote">"Whatever you're doing (applies to us at Action Cookies), make sure you're doing it with Love and passion." -Ebbie Echeverri</p>
         </div>
         <p>Keep up with the Action on Instagram</p>
-        <p>@actioncookies</p>
-        <img src={require('./images/insta.png')} className="insta" />
+        <p className="insta-handle">@actioncookies</p>
+         <Instagram />
+
       </div>
     </div>
   )

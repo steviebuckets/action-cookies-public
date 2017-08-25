@@ -7,6 +7,7 @@ import Locator from './locator.js';
 import Cookiemenu from './cookie-menu.js';
 import Actionbar from './action-bar.js';
 import Footer from './footer.js';
+import Instagram from './instagram.js';
 
 
 class App extends Component{
@@ -32,7 +33,7 @@ class App extends Component{
         <div className="Action-Bar">
         <Actionbar />
         </div>
-
+        
         <div className="Footer">
         <Footer />
         </div>
