@@ -1,4 +1,5 @@
 import React from 'react';
+import MapContainer from './map.js'
 
 /* Note Cookie Locator component will import Google Maps API component for Map */
 /* Possibly crearte another compoenet for Form and import here? */
@@ -7,15 +8,13 @@ export default function Locator() {
   return (
     <div className="container-fluid" id="cookie-locator">
       <h1>Cookie Locator</h1>
+      <div className="google-map">
+      <MapContainer />
+      </div>
       <div className="row" id="search">
-        <div className="col-sm-6">
-          <div className="zip-search">
-            <form>
-              <input type="text" className="info" placeholder="City or Zip"/>
-            </form>
 
-          </div>
-        </div>
+
+
         <div className="col-sm-6">
           <ul>
             <a href="">Barbara's at the Brewery<br/>620 Moulton Av #110<br/>Los Angeles CA 90031</a>
@@ -30,3 +29,13 @@ export default function Locator() {
     </div>
   )
 }
+
+
+// <div className="col-sm-6">
+//   <div className="zip-search">
+//     <form>
+//       <input type="text" className="info" placeholder="City or Zip"/>
+//     </form>
+//
+//   </div>
+// </div>

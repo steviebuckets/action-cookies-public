@@ -22,5 +22,6 @@ export default function Ourstory() {
 
       </div>
     </div>
+
   )
 }

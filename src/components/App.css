@@ -5,6 +5,12 @@
 body{
   font-family: 'Bitter', serif;
 }
+
+#cookie-locator .google-map {
+  /*background-color: black;
+  border: 1px solid black;*/
+
+}
 /* Navbar */
 
 .navbar-default {
@@ -133,7 +139,13 @@ span{
 }
 
 .insta-handle{
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.insta-container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
 }
 
 
