@@ -2,331 +2,171 @@
   margin:0;
   padding:0;
 }
-body{
-  font-family: 'Bitter', serif;
-}
 
-#cookie-locator .google-map {
-  /*background-color: black;
-  border: 1px solid black;*/
-
-}
 /* Navbar */
-
-.navbar-default {
-  background-color: white;
-  color: black;
-  opacity: 0.9;
-  border: none;
-  padding-top: 2em;
-  font-size: 1.1em;
-  font-family: 'Source Code Pro', monospace;
-}
-
-/* Remove the navbar's default margin-bottom and rounded borders */
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-  position: absolute;
-  width: 100%;
-  z-index: 9999;
-  position: fixed;
-  margin-left: -16px;
-  height: 80px;
-}
-
-
-#myNavbar ul{
- clear:left;
- float:left;
- list-style:none;
- margin:0;
- padding:0;
- position:relative;
- left:50%;
- text-align:center;
-}
-#myNavbar ul li {
-   display:block;
-   float:left;
-   list-style:none;
-   margin:0;
-   padding:0;
-   position:relative;
-   right:50%;
-}
-#myNavbar ul li a {
-   color: #1b0000;
-   display:block;
-   margin:0 0 0 10px;
-   padding:10px 20px;
-   /*text-decoration:none;*/
-   font-family: 'Source Code Pro', monospace;
-}
-
-.navbar-toggle{
-  background-color: #efefef;
+.inner-cover{
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
-.nav{
-  color: yellow;
+.navbar-default {
+  float: none;
+  display: inline-block;
+  background-color: white;
+  color: #212121;
+  opacity: 0.9;
+  border: none;
+  padding-top: 1.5em;
+  font-size: 1.1em;
+  margin-bottom: 0;
+  border-radius: 0;
+  /*position: absolute;*/
+  /*width: 100%;*/
+  z-index: 9999;
+  /*position: fixed;*/
+  /*margin-left: -16px;*/
+}
+
+.container-fluid{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-default .navbar-nav li a{
+  color: #212121;
+  font-family: 'Lato', sans-serif;
+}
+
+li{
+  font-size: 18px;
 }
 /* Hero Section */
+.inner-cover{
+  background-image: url("./images/hero.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-.inner-cover {
+.inner-cover .images{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   height: 100vh;
   position: relative;
-  background-image: url("./images/hero.jpeg");
   background-position: center;
   background-repeat: no-repeat;
-  /*background-size: cover;*/
-}
-.image {
-  padding-top: 19.5em;
+  margin-top: -60px;
 }
 
+.image {
+  padding-top: 20.5em;
+}
+
+
+
 /* About Section */
-.container{
-  padding-bottom: 5em;
+#about-section{
+  font-family: 'Lato', sans-serif;
+  color: #212121;
+  padding-bottom: 80px;
 }
-.about{
+
+#about-section .insta-handle{
+  font-size: 20px;
+}
+#about .col-md-12{
   text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 1em;
-  height: 50vh;
-  width: 100px;
+  font-size: 18px;
+  letter-spacing: 0.7px;
 }
-.about h1{
+
+#about .defined{
   padding-bottom: 10px;
 }
 
-
-span{
-  color: black;
-  font-weight: 200;
-  font-style: italic;
-  font-family: 'Source Code Pro', monospace;
-  background-color: yellow;
-}
-
-.quote{
-  padding-top: 20px;
-}
-.about-text{
-  margin-left: 480px;
-  margin-right: 480px;
-}
-
-.about p{
-  font-size: 17px;
-  font-family: 'Source Code Pro', monospace;
-}
-.quote{
-  padding-bottom: 20px;
-}
-
-.container, #about-section{
-  width: auto;
-}
-.about, .insta{
-  height: inherit;
-  padding-top: 10px;
-}
-
-.insta-handle{
+#about-section .noun{
   padding-bottom: 30px;
 }
 
-.insta-container{
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
-}
-
-
-/* Cookie Locator Section */
-.container-fluid{
-  text-align: center;
-  padding-bottom: 100px;
-  font-family: 'Bitter', serif;
-}
-
-.container-fluid h1{
-  padding-bottom: 14px;
-}
-
-#search{
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.zip-search{
-  margin-left: -360px;
-}
-
-.form-control{
+.instagram{
+  padding-top: 30px;
   text-align: center;
 }
 
-.col-sm-6 ul{
-  margin-bottom: 10px;
-  float: right;
-}
-.col-sm-6 a{
-  display: block;
-  margin-right: -300px;
-  text-align: left;
-  padding-left: 80px;
-  padding-bottom: 10px;
-  color: #40241a;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-  word-spacing: 3px;
-}
-
-/* Cookie Menu Section */
-.cookie-menu-container p{
-  font-family: 'Source Code Pro', monospace;
+.instagram p{
   font-size: 17px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 70px;
-  padding-bottom: 40px;
 }
 
-#cookie-row{
+.insta-handle{
+  padding-bottom: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/* Locations Section */
+/*.container-fluid #search{
   background-color: black;
-  color: white;
-}
-
-#cookies{
+  width: 100%;
+}*/
+.locations h1{
   text-align: center;
-}
-#cookies h1{
-  font-size: 17px;
-  font-family: 'Bitter', serif;
-  color: #1b0000;
-  padding-bottom: 1px;
+  padding-bottom: 20px;
 }
 
-#cookies img{
+.locations {
+  text-align: center;
+  height: 50vh;
+}
+#cookie-locator{
+  background-color: #212121;
+  background-image: url('./images/checkerboard.png');
+  width: auto%;
+  margin-left: -500px;
+  margin-right: -500px;
+  padding-left: 380px;
+  padding-right: 380px;
   padding-top: 10px;
-  background-size: contain;
-  padding-bottom: 80px;
-  width: 70%;
-}
-
-
-/* Action Bar Section */
-.action-bar-container p{
-  font-family: 'Source Code Pro', monospace;
-  font-size: 17px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 70px;
+  height: 8vh;
   padding-bottom: 40px;
 }
-.action-bar-container .row{
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  margin-right: 10px;
+
+
+#cookie-locator{
+  margin-bottom: 40px;
 }
 
-#action-row{
-  background-color: yellow;
-  width: auto;
-  margin-right: -15px;
-}
-
-#bars{
-  text-align: center;
-}
-#bars h1{
+#cookie-locator h1, a{
+  color: #212121;
   font-size: 17px;
-  font-family: 'Bitter', serif;
-  color: #1b0000;
-  padding-bottom: 1px;
+  line-height: 2;
 }
+/*#search, .col-sm-4{
+  background-color: black;
 
-#bars img{
-  padding-top: 10px;
-  background-size: contain;
-  padding-bottom: 80px;
 }
-.col-md-4{
-  background-repeat: no-repeat;
-  margin: auto;
-  text-align: center;
-  padding-top: 50px;
-  background-size: contain;
-}
-
-.hiddens{
-  display: none;
-}
-.row .container:hover .visible{
-  display: none;
-}
-
-.row .container:hover .hiddens{
+#search, .col-sm-4{
   display: block;
-}
-
-
-
-/* Footer Section, Set black background color, white text and some padding */
-.mastfoot {
-  background-color: #1b0000;
-  color: white;
-  padding: 15px;
-  height: 400px;
-  margin-left: -20px;
-  margin-right: -20px;
-  margin-bottom: -70px;
-}
-.mastfoot .inner{
-  font-family: 'Bitter', serif;
-  color: white;
-  float: right;
-  margin-right: 150px;
-  padding-top: 100px;
-  margin-left: 800px;
-}
-
-.mastfoot .outer{
-  padding-top: 150px;
-  margin-left: 150px;
-}
-
-.mastfoot .outer p{
-  font-family: 'Source Code Pro', monospace;
-  font-size: 17px;
-}
-
-.mastfoot h1{
-  padding-bottom: 10px;
-}
-
-.mastfoot p{
-  padding-bottom: 15px;
-  font-size: 17px;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-.mastfoot .fa{
-  padding-right: 5px;
-  font-size: 24px;
-}
+}*/
+/*.container-fluid, .col-sm-4{
+  display: block;
+  background-color: black;
+}*/
+/*.container-fluid #search a{
+  display: inline;
+  background-color: yellow;
+}*/
+/*#cookie-locator a{
+  display:block;
+  background-color: black;
+}*/
 
 
 
 
-/* Responsive Styles */
+
+/*Media Styles*/
 @media screen and (max-width: 767px) {
   .navbar-default {
     padding-top: 10px;
@@ -344,19 +184,17 @@ span{
     width: 90%;
     margin-top: 190px;
   }
-  .inner-cover {
+  .inner-cover{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    height: 70vh;
+    height: 55vh;
     position: relative;
     background-size: contain;
-    /*background-image: url("/images/cookies.jpg");*/
-    background-image: url("./images/hero.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
   }
-  .image {
-    padding-top: 2.5em;
+
+  .images .image {
+    margin-top: -115px;
+    width: 80%;
   }
 }

@@ -31,12 +31,12 @@ render() {
     return (
       <div className="maps">
         <Map google={this.props.google} onClick={this.onMapClicked} initialCenter={{
-          lat: 34.0522342,
-          lng: -118.2436849
+          lat: 34.1808392,
+          lng: -118.30896610000002
           }}
           style={{
             width: "40%",
-            height: "40%"
+            height: "30%"
           }} zoom={10}>
 
           <Marker
@@ -47,6 +47,7 @@ render() {
           <Marker
             onClick={this.onMarkerClick}
             name={'Caffe Vita'}
+            website={'http://www.mysideofthecity.com/'}
             position={{lat: 34.098037, lng: -118.28648290000001}} />
 
           <Marker
@@ -105,18 +106,12 @@ render() {
             position={{lat: 34.0612681, lng: -118.23915679999999}} />
 
 
-          <Marker onClick={this.onMarkerClick}
-            name={'Current location'} />
-
-
-
-
            <InfoWindow
              marker={this.state.activeMarker}
              visible={this.state.showingInfoWindow}
              onClose={this.onInfoWindowClose}>
                <div>
-                 <h1>{this.state.selectedPlace.name}</h1>
+                 <a href={this.state.selectedPlace.website}><p>{this.state.selectedPlace.name}</p></a>
                </div>
            </InfoWindow>
 

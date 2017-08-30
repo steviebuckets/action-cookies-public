@@ -1,26 +1,37 @@
 import React from 'react';
 import Instagram from './instagram.js';
 
-
 /* Note Our Story component will import Instagram API component for images */
 
 export default function Ourstory() {
   return (
-    <div className="container">
-      <div className="about" id="about-section">
-        <div className="about-text">
-          <h1>Our Story</h1>
-          <p className="p1">
-            <span>ACTION COOKIES </span>
-            is a Los Angeles based cookie company that specializes in cookies and bars made with all natural ingredients.</p>
-
-          <p className="quote">"Whatever you're doing (applies to us at Action Cookies), make sure you're doing it with Love and passion." -Ebbie Echeverri</p>
+    <div className="container" id="about-section">
+      <div className="row" id="about">
+        <div className="col-md-12">
+          <h1>What is an Action Cookie?</h1>
+          <p style={{
+            color: "#616161"
+          }}>[ak-shuh n] [koo k-ee], ​ˈækʃ(ə)n ˈkʊki</p>
+          <p style={{
+            color: "#616161"
+          }} className="noun">noun</p>
+          <p className="defined">* An all natural baked good made by the Los Angeles based cookie company, ACTION COOKIES.</p>
+          <p className="defined">* A person who takes massive action toward their goals or dreams with love and passion.</p>
         </div>
-        <p>Keep up with the Action on Instagram</p>
-        <p className="insta-handle">@actioncookies</p>
-         <Instagram />
 
       </div>
+
+      <div className="instagram">
+        <p>Keep up with the Action on Instagram</p>
+        <p className="insta-handle">@actioncookies</p>
+        <div className="col-md-2"></div>
+        <div className="col-md-8">
+          <div className="insta-grid">
+            <Instagram/>
+          </div>
+        </div>
+      </div>
+
     </div>
 
   )
