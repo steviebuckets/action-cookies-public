@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './navbar.js';
 import Ourstory from './our-story.js';
 import Locator from './locator.js';
-// import Cookiemenu from './cookie-menu.js';
+import Menu from './menu.js';
 // import Actionbar from './action-bar.js';
 // import Footer from './footer.js';
 // import Instagram from './instagram.js';
@@ -25,8 +25,11 @@ class App extends Component{
 
         <div className="Find us">
           <Locator />
-        </div>  
+        </div>
 
+        <div className="Menu">
+          <Menu />
+        </div>
 
       </div>
     );

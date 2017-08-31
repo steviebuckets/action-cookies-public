@@ -6,7 +6,7 @@ import React from 'react';
 
 export default function Locator() {
   return (
-    <div className="locations">
+    <div className="locations" id="location">
     <div className="container-fluid" id="cookie-locator">
     </div>
     <div className="header">

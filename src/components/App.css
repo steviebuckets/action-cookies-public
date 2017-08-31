@@ -106,19 +106,27 @@ li{
 
 
 /* Locations Section */
-/*.container-fluid #search{
-  background-color: black;
-  width: 100%;
-}*/
+.locations{
+  margin-bottom: 60px;
+}
 .locations h1{
   text-align: center;
   padding-bottom: 20px;
+  margin-top: 60px;
 }
 
-.locations {
+#search{
+  text-align: center;
+}
+/*.locations #search {
   text-align: center;
   height: 50vh;
-}
+}*/
+
+/*.locations{
+  margin-bottom: 80px;
+}*/
+
 #cookie-locator{
   background-color: #212121;
   background-image: url('./images/checkerboard.png');
@@ -132,7 +140,6 @@ li{
   padding-bottom: 40px;
 }
 
-
 #cookie-locator{
   margin-bottom: 40px;
 }
@@ -142,26 +149,27 @@ li{
   font-size: 17px;
   line-height: 2;
 }
-/*#search, .col-sm-4{
-  background-color: black;
 
+
+/* Menu */
+.border .steve{
+  background-image: url('./images/checkerboard.png');
 }
-#search, .col-sm-4{
-  display: block;
-}*/
-/*.container-fluid, .col-sm-4{
-  display: block;
-  background-color: black;
-}*/
-/*.container-fluid #search a{
-  display: inline;
-  background-color: yellow;
-}*/
-/*#cookie-locator a{
-  display:block;
-  background-color: black;
-}*/
 
+.menu .row{
+  text-align: center;
+}
+
+.menu h1{
+  font-size: 20px;
+}
+
+.menu img{
+  background-size: contain;
+  padding-bottom: 80px;
+  width: 90%;
+  text-align: center;
+}
 
 
 

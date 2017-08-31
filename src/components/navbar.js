@@ -18,7 +18,7 @@ export default function Navbar(){
                 <ul className="nav navbar-nav">
                   <li><a href="#about-section">Our Story</a></li>
                   <li><a href="#cookie-locator">Find us</a></li>
-                  <li><a href="#cookie-menu">Menu</a></li>
+                  <li><a href="#menu">Menu</a></li>
                   <li><a href="#">Catering</a></li>
                   <li><a href="#action-bar">Action Bar</a></li>
                   <li><a href="#contact-footer">Contact</a></li>
