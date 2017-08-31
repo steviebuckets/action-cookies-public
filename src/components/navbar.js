@@ -19,8 +19,7 @@ export default function Navbar(){
                   <li><a href="#about-section">Our Story</a></li>
                   <li><a href="#cookie-locator">Find us</a></li>
                   <li><a href="#menu">Menu</a></li>
-                  <li><a href="#">Catering</a></li>
-                  <li><a href="#action-bar">Action Bar</a></li>
+                  <li><a href="#catering">Catering</a></li>
                   <li><a href="#contact-footer">Contact</a></li>
                 </ul>
               </div>

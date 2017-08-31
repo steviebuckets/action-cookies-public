@@ -3,6 +3,7 @@
   padding:0;
 }
 
+
 /* Navbar */
 .inner-cover{
   margin-left: auto;
@@ -152,7 +153,7 @@ li{
 
 
 /* Menu */
-.border .steve{
+.border{
   background-image: url('./images/checkerboard.png');
 }
 
@@ -169,8 +170,56 @@ li{
   padding-bottom: 80px;
   width: 90%;
   text-align: center;
+  border-radius: 25px;
+  padding: 20px;
 }
 
+.off img{
+  background-size: contain;
+  width: 70%;
+  opacity: 0.9;
+  display: inline-block;
+  position: relative;
+}
+
+.off{
+  display: none;
+}
+/*.menu:hover .on{
+  display: none;
+}
+
+.container:hover .off{
+  display: block;
+}*/
+
+
+/* Catering Section */
+.catering-image img{
+margin-top: -25px;
+  padding-bottom: 80px;
+  border-radius: 25px;
+  padding: 20px;
+  /*width: 330px;
+  height: 300px;*/
+}
+.row, .catering-info{
+  text-align: center;
+}
+#catering h1{
+  color: #212121;
+  font-size: 30px;
+  line-height: 2;
+  padding-bottom: 40px;
+}
+#catering li{
+  text-align: justify;
+}
+#catering span{
+  float: left;
+  margin-left: -20px;
+  font-size: 17px;
+}
 
 
 

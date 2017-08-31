@@ -4,8 +4,8 @@ import './App.css';
 import Navbar from './navbar.js';
 import Ourstory from './our-story.js';
 import Locator from './locator.js';
-import Menu from './menu.js';
-// import Actionbar from './action-bar.js';
+import {Menu} from './menu.js';
+import Catering from './catering.js';
 // import Footer from './footer.js';
 // import Instagram from './instagram.js';
 // import MapContainer from './map.js'
@@ -29,6 +29,10 @@ class App extends Component{
 
         <div className="Menu">
           <Menu />
+        </div>
+
+        <div className="Catering">
+          <Catering />
         </div>
 
       </div>
