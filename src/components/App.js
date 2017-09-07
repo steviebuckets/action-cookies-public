@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Navbar from './navbar.js';
@@ -6,33 +6,36 @@ import Ourstory from './our-story.js';
 import Locator from './locator.js';
 import {Menu} from './menu.js';
 import Catering from './catering.js';
-// import Footer from './footer.js';
+import Footer from './footer.js';
 // import Instagram from './instagram.js';
 // import MapContainer from './map.js'
 
-
-class App extends Component{
-  render(){
-    return(
+class App extends Component {
+  render() {
+    return (
       <div className="container">
         <div className="Nav">
-          <Navbar />
+          <Navbar/>
         </div>
 
         <div className="About">
-          <Ourstory />
+          <Ourstory/>
         </div>
 
         <div className="Find us">
-          <Locator />
+          <Locator/>
         </div>
 
         <div className="Menu">
-          <Menu />
+          <Menu/>
         </div>
 
         <div className="Catering">
-          <Catering />
+          <Catering/>
+        </div>
+
+        <div className="Footer">
+          <Footer/>
         </div>
 
       </div>
@@ -41,21 +44,3 @@ class App extends Component{
 }
 
 export default App;
-
-
-//
-// <div className="Cookie-Locator">
-//   <Locator />
-// </div>
-//
-// <div className="Cookie-Menu">
-//   <Cookiemenu />
-// </div>
-//
-// <div className="Action-Bar">
-// <Actionbar />
-// </div>
-//
-// <div className="Footer">
-// <Footer />
-// </div>

@@ -3,6 +3,9 @@
   padding:0;
 }
 
+body{
+  font-family: 'Lato', sans-serif;
+}
 
 /* Navbar */
 .inner-cover{
@@ -28,6 +31,10 @@
   /*position: fixed;*/
   /*margin-left: -16px;*/
 }
+/*.navbar-collapse{
+  overflow: hidden;
+}*/
+
 
 .container-fluid{
   text-align: center;
@@ -112,21 +119,9 @@ li{
 }
 .locations h1{
   text-align: center;
-  padding-bottom: 20px;
   margin-top: 60px;
+  padding-bottom: 18px;
 }
-
-#search{
-  text-align: center;
-}
-/*.locations #search {
-  text-align: center;
-  height: 50vh;
-}*/
-
-/*.locations{
-  margin-bottom: 80px;
-}*/
 
 #cookie-locator{
   background-color: #212121;
@@ -136,9 +131,8 @@ li{
   margin-right: -500px;
   padding-left: 380px;
   padding-right: 380px;
-  padding-top: 10px;
   height: 8vh;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 #cookie-locator{
@@ -174,52 +168,130 @@ li{
   padding: 20px;
 }
 
-.off img{
+/*Styles for hiding and displaying Ingredients, coming soon when images updated
+
+
+.off{
+  display: none;
+}
+ /*.visible:hover{
+  display: none;
+}
+
+.container:hover .hiddens{
+  display: block;
+}*/
+
+/*.off{
   background-size: contain;
   width: 70%;
   opacity: 0.9;
   display: inline-block;
   position: relative;
-}
+  z-index: -1;
+}*/
 
-.off{
+/*.off{
   display: none;
-}
-/*.menu:hover .on{
+}*/
+/*#off-cranberry , #off-zuch, #off-pumpkin, #off-berry-power{
   display: none;
-}
+}*/
+/*#on-cranberry:hover, #on-zuch:hover, #on-pumpkin:hover, #on-berry-power:hover {
+  display: none;
+}*/
 
-.container:hover .off{
+/*.off:hover{
   display: block;
 }*/
 
 
+
 /* Catering Section */
-.catering-image img{
-margin-top: -25px;
+/*.catering-image img{
+   margin-top: -25px;
   padding-bottom: 80px;
   border-radius: 25px;
   padding: 20px;
-  /*width: 330px;
-  height: 300px;*/
+  width: 330px;
+  height: 300px;
+}*/
+#catering{
+  height: 40vh;
 }
+#catering h1{
+  margin-top: 90px;
+  padding-bottom: 18px;
+}
+#catering p, a{
+  color: #212121;
+  font-size: 19px;
+  line-height: 2;
+}
+
 .row, .catering-info{
   text-align: center;
 }
-#catering h1{
-  color: #212121;
-  font-size: 30px;
-  line-height: 2;
-  padding-bottom: 40px;
-}
+
 #catering li{
   text-align: justify;
 }
-#catering span{
-  float: left;
-  margin-left: -20px;
+
+#catering-info li{
+  text-align: center;
+  list-style: none;
+}
+#catering a{
+  color: #494949;
+  text-decoration: none;
+}
+
+
+/* Footer Style */
+.mastfoot {
+  background-color: #212121;
+  color: white;
+  padding: 15px;
+  height: 350px;
+  margin-left: -450px;
+  margin-right: -300px;
+
+}
+.mastfoot .inner{
+  color: white;
+  float: right;
+  margin-right: 150px;
+  padding-top: 100px;
+  margin-left: 800px;
+}
+
+.mastfoot .outer{
+  padding-top: 130px;
+  margin-left: 300px;
+}
+
+.mastfoot .outer p{
+  font-size: 19px;
+  line-height: 2;
+}
+
+.mastfoot h1{
+  padding-bottom: 10px;
+}
+
+.mastfoot p{
   font-size: 17px;
 }
+.mastfoot .fa{
+  padding-right: 14px;
+  font-size: 24px;
+}
+
+.mastfoot a{
+  color: white;
+}
+
+
 
 
 
