@@ -10,11 +10,11 @@ if (process.env.NODE_ENV == 'production') {
 app.set('port', (process.env.PORT || 3001));
 
 //Displays Instagram Posts
-app.get('/insta', (req, res) => {
-  if(req.query){
-    const insta = req.query['q'];
-    var unirest = require('unirest');
-    var photos = encodeURI(req.query['q']);
-    var Request = unirest.get(``)
-  }
-})
+// app.get('/insta', (req, res) => {
+//   if(req.query){
+//     const insta = req.query['q'];
+//     var unirest = require('unirest');
+//     var photos = encodeURI(req.query['q']);
+//     var Request = unirest.get(``)
+//   }
+// })
