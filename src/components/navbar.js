@@ -7,7 +7,7 @@ export default function Navbar(){
           <nav className="navbar navbar-default">
             <div className="container-fluid">
               <div className="navbar-header">
-                <button type="button" className="navbar-toggle" data-toggle="collapse" toggle-Navkey="defaultNavExpanded" data-target="#myNavbar">
+                <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>

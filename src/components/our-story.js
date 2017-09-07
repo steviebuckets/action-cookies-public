@@ -1,8 +1,6 @@
 import React from 'react';
 import Instagram from './instagram.js';
 
-/* Note Our Story component will import Instagram API component for images */
-
 export default function Ourstory() {
   return (
     <div className="container" id="about-section">

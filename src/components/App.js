@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import Navbar from './navbar.js';
 import Ourstory from './our-story.js';
@@ -7,8 +6,7 @@ import Locator from './locator.js';
 import {Menu} from './menu.js';
 import Catering from './catering.js';
 import Footer from './footer.js';
-// import Instagram from './instagram.js';
-// import MapContainer from './map.js'
+
 
 class App extends Component {
   render() {
