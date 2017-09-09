@@ -5,6 +5,8 @@
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
+    "dotenv": "^4.0.0",
+    "env": "0.0.2",
     "google-maps-react": "^1.1.0",
     "instafeed.js": "^1.4.1",
     "react": "^15.6.1",
